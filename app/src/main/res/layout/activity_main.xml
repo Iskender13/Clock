@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnStopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Секундомер" />
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Таймер" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Будильник" />
+</LinearLayout>
